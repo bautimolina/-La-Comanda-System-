@@ -29,4 +29,7 @@ class Comestible(Producto):
 
 
 class Postre(Producto):
-    pass
+    def __init__(self, nombre, precio, porciones, tipo):
+        super().__init__(nombre, precio, porciones)
+
+        self.tipo = tipo
