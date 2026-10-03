@@ -11,9 +11,10 @@ class Producto:
         self.porciones = porciones
 
 class Bebida(Producto):
-
+    pass
 
 class Comestible(Producto):
-
+    pass
 
 class Postre(Producto):
+    pass
