@@ -21,7 +21,11 @@ class Bebida(Producto):
 
 
 class Comestible(Producto):
-    pass
+     def __init__(self, nombre, precio, porciones, apto_celiaco, vegetariano):
+        super().__init__(nombre, precio, porciones)
+
+        self.apto_celiaco = apto_celiaco
+        self.vegetariano = vegetariano
 
 
 class Postre(Producto):
