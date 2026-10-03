@@ -10,11 +10,19 @@ class Producto:
         self.precio = precio
         self.porciones = porciones
 
+
+
 class Bebida(Producto):
-    pass
+    def __init__(self, nombre, precio, porciones, capacidad, alcohol):
+        super().__init__(nombre, precio, porciones)
+
+        self.capacidad = capacidad
+        self.alcohol = alcohol
+
 
 class Comestible(Producto):
     pass
+
 
 class Postre(Producto):
     pass
