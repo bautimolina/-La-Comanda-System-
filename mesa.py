@@ -1,7 +1,7 @@
 #Esta clase está a cargo de Sahonero Geremías
 from pedido import Pedido
 class Mesa:
-    def _init_(self, numero):
+    def __init__(self, numero):
         self.numero = numero
         self.pedido = None
         self.mozo = None

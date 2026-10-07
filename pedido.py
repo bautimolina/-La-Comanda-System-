@@ -1,7 +1,7 @@
 #Esta clase está a cargo de Gambino Octavio
 
 class Pedido:
-    def _init_(self, id, mesa):
+    def __init__(self, id, mesa):
         self.id = id
         self.mesa = mesa
         self.productos = []
